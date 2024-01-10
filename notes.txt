@@ -6,3 +6,9 @@ January 9th
 - Created the directory structure that the module instructions recommended
 - Added sub directories and files
 - Pushed starter files to GitHub
+- npm install inquirer
+- npm install --save-dev jest
+- npm init -y
+- npm install inquirer
+- npm install --save-dev jest
+- updated "test": "jest"
