@@ -1,0 +1,7 @@
+January 9th
+
+- Created a GitHub repository with a .gitignore node template
+- Cloned the repository to my desktop
+- Added a notes.txt file
+- Created the directory structure that the module instructions recommended
+- Added sub directories and files
