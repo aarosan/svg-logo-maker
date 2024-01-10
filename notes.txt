@@ -29,3 +29,4 @@ January 10th
 - Created colorKeyword array
 - Got the color keywords from AI
 - Debugged the validate statement for colorKeyword (forgot the s in includes)
+- Added the next two questions
