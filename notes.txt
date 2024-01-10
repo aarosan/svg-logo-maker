@@ -12,3 +12,20 @@ January 9th
 - npm install inquirer
 - npm install --save-dev jest
 - updated "test": "jest"
+
+
+January 10th
+
+- Pseudocoded index.js
+- Started index.js by importing fs and inquirer
+- Created an array of questions
+- Used the validate prompt for the first time *AI helped with this*
+- Used a regex for the Hex Color *Provided by AI*
+- Added the writeToFile function, commented it out until ready to test
+- Added the init function with the inquirer prompt
+- Changed require to import
+- Added "type": "module", to package.json
+- INQUIRER IS WORKING!!!!!
+- Created colorKeyword array
+- Got the color keywords from AI
+- Debugged the validate statement for colorKeyword (forgot the s in includes)
