@@ -5,3 +5,4 @@ January 9th
 - Added a notes.txt file
 - Created the directory structure that the module instructions recommended
 - Added sub directories and files
+- Pushed starter files to GitHub
