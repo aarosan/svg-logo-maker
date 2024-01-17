@@ -30,3 +30,15 @@ January 10th
 - Got the color keywords from AI
 - Debugged the validate statement for colorKeyword (forgot the s in includes)
 - Added the next two questions
+
+January 17th
+
+- Started building practice svg files to understand the format (https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started)
+- Installed the SVG Viewer VS Code Extenstion
+- Got the polygon svg code from W3 schools
+- Refactored inquirer validation to validateColor funciton
+- Changed the import and export statements to match ES6 Syntax. Chat GPT helped
+- Putting in console.log's to test if data is being passed correctly from inquirer to the shapes.js functions
+- Finished createLogo function to test writeFile function with basic shapes
+- Write File is working properly and creating an svg.
+    - Next step is to write incorporate the text and color into the createLogo function
