@@ -41,4 +41,16 @@ January 17th
 - Putting in console.log's to test if data is being passed correctly from inquirer to the shapes.js functions
 - Finished createLogo function to test writeFile function with basic shapes
 - Write File is working properly and creating an svg.
-    - Next step is to write incorporate the text and color into the createLogo function
+    - Next step is to incorporate the text and color into the createLogo function
+
+January 18th
+
+Last Day todos:
+    - createLogo SVG template 
+    - Add text to createLogo
+    - Add text color to createLogo
+    - Add shape color to createLogo
+    - File name
+    - Screen Record Assignment
+    - Finish Readme
+    - Submit Assignment

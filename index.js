@@ -1,15 +1,12 @@
 import fs from 'fs';
 import inquirer from 'inquirer';
-
-//import createLogo() from shapes.js
-
 import { createLogo } from './lib/shapes.js'
 
 const questions = [
     {
         type: 'input',
         name: 'text',
-        message: 'Please include 1-3 characters for your logo',
+        message: 'Please include 1-3 characters for your logo:',
         validate: function(input) {
             const isValid = input.length >= 1 && input.length <= 3;
             if (isValid) {
@@ -21,7 +18,7 @@ const questions = [
     {
         type: 'input',
         name: 'textColor',
-        message: 'Please enter a color for the text. It can be a color keyword or a Hexidecimal number',
+        message: 'Please enter a color for the text. It can be a color keyword or a Hexidecimal number:',
         validate: validateColor,
     },
     {
@@ -33,7 +30,7 @@ const questions = [
     {
         type: 'input',
         name: 'shapeColor',
-        message: 'Please enter a color for the shape. It can be a color keyword or a Hexidecimal number',
+        message: 'Please enter a color for the shape. It can be a color keyword or a Hexidecimal number:',
         validate: validateColor,
     }
 ]
