@@ -72,3 +72,5 @@ Last Day todos:
 - created a test directory
 - updated the testData variable to include { shape: 'circle' }
 - I got my first passed test!!
+- Finished shape test and passed all 3 shapes
+- Adding shapeColor to createShape() and test
