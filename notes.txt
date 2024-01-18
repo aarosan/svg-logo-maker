@@ -47,6 +47,7 @@ January 18th
 
 Last Day todos:
     - createLogo SVG template 
+    - Implement Jest Tests
     - Add text to createLogo
     - Add text color to createLogo
     - Add shape color to createLogo
@@ -54,3 +55,20 @@ Last Day todos:
     - Screen Record Assignment
     - Finish Readme
     - Submit Assignment
+
+- Currently researching how to get jest to work with ESM since I'm using that format for importing and exporting.
+- ChatGPT recommended Babel so I intalled it and added it to package.json
+- It got rid of this error "Cannot use import statement outside a module"
+- Got this error "You appear to be using a native ECMAScript module configuration file, which is only supported when running Babel asynchronously."
+- Now I'm removing Babel and added this under jest: "extensionsToTreatAsEsm": [".js"]
+- Back at the start again... changing jest configurations now:
+- Changing from ESM to CommonJS
+- I learned that inquirer uses ESM
+    - I can get around that by using dynamic import
+    - Got the dynamic import code from ChatGPT
+- Now I'm trying the commonJS inquirer
+    - npm install inquirer@6
+    - It's working now!
+- created a test directory
+- updated the testData variable to include { shape: 'circle' }
+- I got my first passed test!!

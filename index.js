@@ -1,6 +1,8 @@
-import fs from 'fs';
-import inquirer from 'inquirer';
-import { createLogo } from './lib/shapes.js'
+const fs = require('fs');
+
+const inquirer = require('inquirer');
+
+const { createLogo } = require('./lib/shapes.js');
 
 const questions = [
     {
