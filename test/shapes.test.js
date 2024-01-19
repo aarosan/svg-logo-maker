@@ -4,7 +4,7 @@ describe("Shape test", () => {
     test("test for circle", () => {
         const testData = { shape: 'circle', shapeColor: 'red' };
         expect(createShape(testData)).toEqual(
-            `<circle cx="25" cy="75" r="20" fill="${testData.shapeColor}"/>`
+            `<circle cx="150" cy="130" r="20" fill="${testData.shapeColor}"/>`
         );
     });
     test("test for triangle", () => {
@@ -16,7 +16,7 @@ describe("Shape test", () => {
     test("test for square", () => {
         const testData = { shape: 'square', shapeColor: 'yellow' };
         expect(createShape(testData)).toEqual(
-            `<rect x="10" y="10" width="30" height="30" fill="${testData.shapeColor}"/>`
+            `<rect x="125" y="105" width="50" height="50" fill="${testData.shapeColor}"/>`
         );
     });
 });

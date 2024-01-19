@@ -58,7 +58,6 @@ function validateColor(input) {
 
 // Function to create the svg file
 
-// UNCOMMENT ONCE YOU FINISH SHAPES.JS
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, createLogo(data), (err) => {
         if(err) {

@@ -3,6 +3,10 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     width="300" height="200"> 
     
-    <circle cx="25" cy="75" r="20" fill="Purple"/> 
+    <polygon points="25 5, 75 70, 0, 70" fill="Purple"/> 
+    <text x="150" y="130" text-anchor="middle" alignment-baseline="middle" font-size="20" 
+    fill="Blue">
+    ARS
+    </text>
     
     </svg>
